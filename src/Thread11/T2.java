@@ -2,6 +2,7 @@ package Thread11;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 public class T2 {
@@ -18,6 +19,7 @@ public class T2 {
           });
         }
 
+        ThreadPoolExecutor e;
         System.out.println(service);
 
         //关闭线程池
